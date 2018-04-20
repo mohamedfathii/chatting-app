@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   // tslint:disable-next-line:component-selector
   selector: 'add-chat',
   templateUrl: './add-chat.component.html',
-  styleUrls: ['./add-chat.component.css']
+  styleUrls: ['./add-chat.component.scss']
 })
 export class AddChatComponent implements OnInit {
 

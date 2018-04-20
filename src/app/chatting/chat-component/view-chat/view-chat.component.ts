@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   // tslint:disable-next-line:component-selector
   selector: 'view-chat',
   templateUrl: './view-chat.component.html',
-  styleUrls: ['./view-chat.component.css']
+  styleUrls: ['./view-chat.component.scss']
 })
 export class ViewChatComponent implements OnInit {
 
