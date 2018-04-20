@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-add-chat',
+  // tslint:disable-next-line:component-selector
+  selector: 'add-chat',
   templateUrl: './add-chat.component.html',
   styleUrls: ['./add-chat.component.css']
 })
