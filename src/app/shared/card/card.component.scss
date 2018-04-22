@@ -1,0 +1,69 @@
+@import '~assets/style/common';
+.card {
+    padding: toRem(20) toRem(15);
+    background: rgba($main-color, 0.1);
+    display: flex;
+    max-width: 30%;
+    align-items: center;
+    &__img {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        display: block;
+        img {
+            position: absolute;
+            display: block;
+            object-fit: cover;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+    }
+    &__content {
+        padding-left: toRem(10);
+        flex: 1;
+        .name {
+            color: $dark-gray;
+            font-size: $f-sm;
+            font-weight: $f-semibold;
+            line-height: toRem(18);
+        }
+        .last-message {
+            color: rgba($gray, 1);
+            margin-top: toRem(5);
+            font-size: $f-sm;
+            line-height: toRem(18);
+            width: toRem(200);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+    .other-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .time {
+            color: rgba($gray, 1);
+            font-size: $f-mini;
+            line-height: toRem(19);
+        }
+        .not-number {
+            background: rgba($main-color, 1);
+            border-radius: 50%;
+            width: toRem(20);
+            height: toRem(20);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: $f-mini;
+            color: rgba($white, 1);
+            line-height: toRem(18);
+            margin-top: toRem(5);
+        }
+    }
+}

@@ -1,10 +1,10 @@
-import { MatButtonModule, MatCheckboxModule } from '@angular/material';
+import { CardComponent } from './card/card.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
-  imports: [MatButtonModule, MatCheckboxModule],
-  exports: [MatButtonModule, MatCheckboxModule],
-  declarations: []
+  imports: [],
+  declarations: [CardComponent],
+  exports: [CardComponent]
 })
 export class SharedModule { }
