@@ -1,10 +1,11 @@
 <div class="card">
-  
+    <perfect-scrollbar class="scroll"> 
+        <card *ngFor="let item of data"
+        [name]="item.name"
+        [avatar]="item.avatar"
+        [lastMessage]="item.last_message"
+        [timeStamp]="item.time_stamp"
+        [notificationNumber]="item.notification_number">
+        </card>
+</perfect-scrollbar>
 </div>
-<card *ngFor="let item of data"
-[name]="item.name"
-[avatar]="item.avatar"
-[lastMessage]="item.last_message"
-[timeStamp]="item.time_stamp"
-[notificationNumber]="item.notification_number">
-</card>

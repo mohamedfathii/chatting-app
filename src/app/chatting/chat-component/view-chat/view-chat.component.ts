@@ -40,17 +40,200 @@ export class ViewChatComponent implements OnInit {
       last_message: 'lool',
       time_stamp: '1 day',
       notification_number: 2
-    }
+    },
+    {
+      id: 5,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 6,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 7,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 8,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 9,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 10,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 11,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 12,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 4,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 13,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 14,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 15,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 4,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 16,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 17,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 18,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 19,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 20,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 21,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 22,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 23,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 24,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
+    {
+      id: 25,
+      name: 'mahmoud',
+      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJQEjauVlN2mxWDq9UlVVZw2I6xYjS-oQ5NKo70v3nGddiGDKlA',
+      last_message: 'lool',
+      time_stamp: '1 day',
+      notification_number: 2
+    },
   ];
   constructor(private chatService: ChatService) { }
 
   ngOnInit() {
-    this.message();
+    // this.message();
   }
   message() {
     this.chatService.getMessageList().subscribe(response => {
       response = response;
-      console.log(response);
     });
   }
 }
