@@ -1,7 +1,56 @@
 @import '~assets/style/common';
-.card{
-    width: 40%;
+.message {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    &__view {
+        border: toRem(1) solid #E7E9ED;
+        width: 100%;
+    }
+    &__info {
+        img {
+            width: toRem(35);
+            height: toRem(35);
+            border-radius: 50%;
+        }
+        .contact__name {
+            padding: toRem(20);
+            background: #e8e4e4;
+            text-transform: capitalize;
+        }
+        .messages__data {
+            margin: toRem(15);
+            .other__message {
+                display: flex;
+                align-items: center;
+                &__text {
+                    padding: toRem(15);
+                    border: toRem(1) solid #E7E9ED;
+                    border-radius: toRem(4);
+                    background-color: #F3F5F8;
+                    display: flex;
+                    align-items: center;
+                    margin-left: toRem(10);
+                }
+            }
+            .my__message {
+                display: flex;
+                flex-direction: row-reverse;
+                &__text{
+                    padding: toRem(15);
+                    border: toRem(1) solid #E7E9ED;
+                    border-radius: toRem(4);
+                    background-color: rgba($main-color,1);
+                    color:$white;
+                    display: flex;
+                    align-items: center;
+                    margin-right: toRem(10);
+                }
+            }
+        }
+    }
 }
-.scroll{
+
+.scroll {
     max-height: 555px;
 }
