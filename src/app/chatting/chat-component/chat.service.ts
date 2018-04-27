@@ -12,12 +12,4 @@ import 'rxjs/add/operator/catch';
 export class ChatService {
 
     constructor(private httpClient: HttpClient) {
-
-    }
-    public getMessageList(): Observable<any> {
-        return this.httpClient.get('src/assets/api/data.json')
-            .map((res: any) => res.json());
-        // .catch((error: any) => console.log(error));
-
-    }
 }
