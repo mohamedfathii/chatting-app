@@ -1,5 +1,5 @@
 <div class="message">
-    <div class="message__card col-md-4">
+    <div class="message__card">
         <perfect-scrollbar class="scroll"> 
             <card *ngFor="let item of data"
                 [name]="item.name"
@@ -11,8 +11,8 @@
             </card>
         </perfect-scrollbar>
     </div>
-    <div class="message__view col-md-8">
-        <div *ngIf="holdCurrentView">
+    <div class="message__view ">
+        <div *ngIf="holdCurrentView" class="message__content-view">
             <div class="message__info" *ngFor="let item of holdCurrentView">
                 <div class="contact__name">{{item.user.name}}</div>
                 <div class="messages__data">
