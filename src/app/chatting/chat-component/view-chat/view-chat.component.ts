@@ -12,7 +12,7 @@ export class ViewChatComponent implements OnInit {
     {
       id: 1,
       name: 'Ahmed',
-      avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYXVTbxmHQuOogxDeNx7U6z7neHX4kOQPZEBLG5nzQZoMMhkFN',
+      avatar: 'https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-1/c41.0.160.160/p160x160/27336692_10160151565970037_3347784644160478354_n.jpg?_nc_cat=0&oh=b24ef3b03847ea2447bffda8861b17d1&oe=5B6A7D13',
       last_message: 'good night ahmed see u tomorrow morning',
       time_stamp: '8 min ago',
       notification_number: 66
@@ -229,26 +229,86 @@ export class ViewChatComponent implements OnInit {
   chat: Array<any> = [
     {
       id: 1,
-      my_message: ' go to hell',
-      other: ' hhahahahahha',
+      message: [
+        {
+          my_message: 'hello',
+          other: 'hello '
+        },
+        {
+          my_message: 'how do u do',
+          other: 'fine'
+        },
+        {
+          my_message: 'and you ?',
+          other: 'fine thank you '
+        },
+        {
+          my_message: 'see you',
+          other: 'maybe'
+        },
+        {
+          my_message: 'good night',
+          other: 'good night ahmed see u tomorrow morning'
+        },
+      ],
       user: {
         name: 'Ahmed',
-        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYXVTbxmHQuOogxDeNx7U6z7neHX4kOQPZEBLG5nzQZoMMhkFN',
+        avatar: 'https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-1/c41.0.160.160/p160x160/27336692_10160151565970037_3347784644160478354_n.jpg?_nc_cat=0&oh=b24ef3b03847ea2447bffda8861b17d1&oe=5B6A7D13',
       }
     },
     {
       id: 2,
-      my_message: 'hello dear',
-      other: 'hello ahmed',
       user: {
         name: 'Mohamed',
         avatar: 'http://2.bp.blogspot.com/-E7bOSegzlC0/VNWWnOwLn_I/AAAAAAAAE1k/BpXLXY5O_2c/s1600/men%2Bhairstyle%2B(2).jpg',
-      }
+      },
+      message: [
+        {
+          my_message: 'hello',
+          other: 'hello '
+        },
+        {
+          my_message: 'how do u do',
+          other: 'fine'
+        },
+        {
+          my_message: 'and you ?',
+          other: 'fine thank you '
+        },
+        {
+          my_message: 'see you',
+          other: 'maybe'
+        },
+        {
+          my_message: 'good night',
+          other: 'good night ahmed see u tomorrow morning'
+        },
+      ],
     },
     {
       id: 3,
-      my_message: 'mmmmm',
-      other: 'yes dear',
+      message: [
+        {
+          my_message: 'hello',
+          other: 'hello '
+        },
+        {
+          my_message: 'how do u do',
+          other: 'fine'
+        },
+        {
+          my_message: 'and you ?',
+          other: 'fine thank you '
+        },
+        {
+          my_message: 'see you',
+          other: 'maybe'
+        },
+        {
+          my_message: 'good night',
+          other: 'good night ahmed see u tomorrow morning'
+        },
+      ],
       user: {
         name: 'Fathy',
         avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxnnOu1rNzVuX58tblCKrBJLbZZR_ok1Xotj3_RsKP2sz2G-b',
@@ -256,8 +316,28 @@ export class ViewChatComponent implements OnInit {
     },
     {
       id: 4,
-      my_message: 'hahahahahah',
-      other: 'let me help',
+      message: [
+        {
+          my_message: 'hello',
+          other: 'hello'
+        },
+        {
+          my_message: 'how do u do',
+          other: 'fine'
+        },
+        {
+          my_message: 'and you ?',
+          other: 'fine thank you '
+        },
+        {
+          my_message: 'see you',
+          other: 'maybe'
+        },
+        {
+          my_message: 'good night',
+          other: 'good night ahmed see u tomorrow morning'
+        },
+      ],
       user: {
         name: 'Mohamed',
         avatar: 'http://www.understandingrelationships.com/wp-content/uploads/Fotolia_56809123_Subscription_Monthly_M.jpg',
